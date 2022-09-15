@@ -1,0 +1,17 @@
+[requires]
+glad/0.1.36@
+glew/2.2.0@
+glfw/3.3.8@
+ffmpeg/4.4@
+boost/1.79.0@
+
+[generators]
+cmake_find_package
+
+[options]
+#opencv:with_cuda=True
+
+[imports]
+#bin, *.dll -> ../bin # Copies all dll files from packages bin folder to my "bin" folder
+#lib, *.dylib* -> ../bin # Copies all dylib files from packages lib folder to my "bin" folder
+#lib, *.so* -> ../bin # Copies all dylib files from packages lib folder to my "bin" folder
